@@ -4,7 +4,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "# Askisi 2  RK"
+    "# Askisi 2  R-K"
    ]
   },
   {
@@ -65,26 +65,26 @@
      "output_type": "stream",
      "text": [
       "y0 = 100\n",
-      "for n= 0 RK solution is: y 1 is: 225.56965907049414\n",
-      "for n= 1 RK solution is: y 2 is: 436.86090195146363\n",
-      "for n= 2 RK solution is: y 3 is: 678.1779902083624\n",
-      "for n= 3 RK solution is: y 4 is: 852.2420290024303\n",
-      "for n= 4 RK solution is: y 5 is: 939.9590411313596\n",
-      "for n= 5 RK solution is: y 6 is: 976.7973368654568\n",
-      "for n= 6 RK solution is: y 7 is: 991.2008986313806\n",
-      "for n= 7 RK solution is: y 8 is: 996.6864767076672\n",
-      "for n= 8 RK solution is: y 9 is: 998.7554765174268\n",
-      "for n= 9 RK solution is: y 10 is: 999.533028998573\n",
-      "for n= 10 RK solution is: y 11 is: 999.8248472370532\n",
-      "for n= 11 RK solution is: y 12 is: 999.93431228007\n",
-      "for n= 12 RK solution is: y 13 is: 999.9753663408715\n",
-      "for n= 13 RK solution is: y 14 is: 999.9907622703663\n",
-      "for n= 14 RK solution is: y 15 is: 999.9965358362757\n",
-      "for n= 15 RK solution is: y 16 is: 999.9987009364784\n",
-      "for n= 16 RK solution is: y 17 is: 999.9995128508806\n",
-      "for n= 17 RK solution is: y 18 is: 999.9998173190382\n",
-      "for n= 18 RK solution is: y 19 is: 999.9999314946334\n",
-      "for n= 19 RK solution is: y 20 is: 999.9999743104867\n"
+      "for n= 0 R-K solution is: y 1 is: 225.56965907049414\n",
+      "for n= 1 R-K solution is: y 2 is: 436.86090195146363\n",
+      "for n= 2 R-K solution is: y 3 is: 678.1779902083624\n",
+      "for n= 3 R-K solution is: y 4 is: 852.2420290024303\n",
+      "for n= 4 R-K solution is: y 5 is: 939.9590411313596\n",
+      "for n= 5 R-K solution is: y 6 is: 976.7973368654568\n",
+      "for n= 6 R-K solution is: y 7 is: 991.2008986313806\n",
+      "for n= 7 R-K solution is: y 8 is: 996.6864767076672\n",
+      "for n= 8 R-K solution is: y 9 is: 998.7554765174268\n",
+      "for n= 9 R-K solution is: y 10 is: 999.533028998573\n",
+      "for n= 10 R-K solution is: y 11 is: 999.8248472370532\n",
+      "for n= 11 R-K solution is: y 12 is: 999.93431228007\n",
+      "for n= 12 R-K solution is: y 13 is: 999.9753663408715\n",
+      "for n= 13 R-K solution is: y 14 is: 999.9907622703663\n",
+      "for n= 14 R-K solution is: y 15 is: 999.9965358362757\n",
+      "for n= 15 R-K solution is: y 16 is: 999.9987009364784\n",
+      "for n= 16 R-K solution is: y 17 is: 999.9995128508806\n",
+      "for n= 17 R-K solution is: y 18 is: 999.9998173190382\n",
+      "for n= 18 R-K solution is: y 19 is: 999.9999314946334\n",
+      "for n= 19 R-K solution is: y 20 is: 999.9999743104867\n"
      ]
     }
    ],
@@ -149,7 +149,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "Σύγκριση της RK με την Euler:"
+    "Σύγκριση της R-K με την Euler:"
    ]
   },
   {
@@ -186,7 +186,7 @@
     }
    ],
    "source": [
-    "#eulers method/ askisi fylladiou 2.\n",
+    "#eulers method/ askisi2 fyl 3.\n",
     "yeuler=np.zeros(N+1)\n",
     "yeuler[0]=100\n",
     "#apo 0 mexri kai N\n",
@@ -237,7 +237,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "Βλέπουμε ότι η RK τα πήγε καλύτερα, αυτό ήταν αναμενόμενο καθώς η euler συνήθως δίνει χειρότερα αποτελέσματα από την RK. Εάν το τρέξουμε με μέγεθος βήματος μεγαλύτερο θα δούμε ότι τα πηγαίνει ακόμη χειρότερα, καθώς σαν μέθοδος δουλεύει καλύτερα με μικρά βήματα."
+    "Παρατηρούμε ότι η R-K τα πήγε καλύτερα. Αυτό ήταν αναμενόμενο καθώς η euler συνήθως δίνει χειρότερα αποτελέσματα από την R-K. Εάν το τρέξουμε με μέγεθος βήματος μεγαλύτερο θα δούμε ότι τα πηγαίνει ακόμη χειρότερα, καθώς σαν μέθοδος δουλεύει καλύτερα με μικρά βήματα."
    ]
   },
   {
